@@ -15,4 +15,4 @@ $app->get('/', function () use ($app) {
     return $app->version();
 });
 
-$app->get('send-email', 'ExampleController@send');
+$app->get('send-email', 'EmailController@send');

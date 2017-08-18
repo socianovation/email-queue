@@ -12,7 +12,7 @@ Follow this guide : https://www.digitalocean.com/community/tutorials/how-to-inst
 7. Change the .env content (MAIL_USERNAME and MAIL_PASSWORD) with your mailtrap account or your other mail service provider
 8. For the queue listener, run ```php artisan email:listener ```
 9. Run ```php -S localhost:8000 -t public```
-10. Try run http://localhost:8080/send-email?
+10. Try run http://localhost:8000/send-email?
 to=<email_to>
 &from=<email_from>
 &content=<email_content>

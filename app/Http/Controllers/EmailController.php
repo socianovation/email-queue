@@ -6,7 +6,7 @@ use Mookofe\Tail\Facades\Tail;
 
 use Illuminate\Http\Request;
 
-class ExampleController extends Controller
+class EmailController extends Controller
 {
     /**
      * Create a new controller instance.
